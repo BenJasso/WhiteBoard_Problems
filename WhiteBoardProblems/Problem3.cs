@@ -10,7 +10,7 @@ namespace WhiteBoardProblems
     {
 
         //member variables
-        List<int> listOfNumbers = new List<int> { 17, 15, 20, 19, 21, 16, 18 };
+        List<int> listOfNumbers = new List<int> {17, 15, 20, 19, 21, 16, 18};
         public bool isCompatible;
 
 
