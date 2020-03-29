@@ -13,7 +13,7 @@ namespace WhiteBoardProblems
         //member Variables
 
         int[] newArray;
-        int targetOutCome = 50;
+        int targetOutCome = 55;
         List<int> ArraysUsed = new List<int>();
 
 
@@ -34,10 +34,14 @@ namespace WhiteBoardProblems
             
             foreach (int number in newArray)
             {
-                for(int i = 0; i < 4; i++)
-                if (number + newArray[i] == targetOutCome && number != newArray[i])
+                for (int i = 0; i < 4 ; i++)
                 {
-                        
+
+
+                    if (number + newArray[i] == targetOutCome && number != newArray[i])
+
+                    {
+
                         if (ArraysUsed.Contains(number))
                         {
                             //skip
@@ -48,6 +52,7 @@ namespace WhiteBoardProblems
                             ArraysUsed.Add(newArray[i]);
                             Console.WriteLine($"\n{Convert.ToString(number)},{newArray[i]}");
                         }
+                    }
                 }
             }
         }

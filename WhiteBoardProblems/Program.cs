@@ -12,11 +12,12 @@ namespace WhiteBoardProblems
         {
             //member variables
             Problem1 problem1 = new Problem1();
-            Problem3 problem3 = new Problem3();
-            Problem4 problem4 = new Problem4();
+            Problem5 problem5 = new Problem5();
+            //Problem3 problem3 = new Problem3();
+            // Problem4 problem4 = new Problem4();
 
 
-            //problem1
+            // problem1
             //problem1.ReturnAnswers();
             //Console.ReadLine();
 
@@ -25,9 +26,17 @@ namespace WhiteBoardProblems
             //Console.WriteLine(problem3.CheckForSequence());
             //Console.ReadLine();
 
-            Console.WriteLine($"Your sum of negative numbers is {problem4.SumOfNegativeNumbers()}");
-            
-            Console.WriteLine($"Your count of positive numbers in the list is {problem4.CountOfPositiveNumbers()}");
+            //Console.WriteLine($"Your sum of negative numbers is {problem4.SumOfNegativeNumbers()}");
+
+            //Console.WriteLine($"Your count of positive numbers in the list is {problem4.CountOfPositiveNumbers()}");
+            //Console.ReadLine();
+
+            //problem5
+            problem5.AddNumbersFromString();
+            problem5.ConvertToInt();
+            problem5.SortNumbers();
+            problem5.returnMinAndMax();
+
             Console.ReadLine();
 
 
